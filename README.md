@@ -3,14 +3,15 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Cocteles Granizados - Refresca tu día con los mejores cocteles granizados.">
-  <title>Cocteles AMD</title>
+  <meta name="description" content="Refresca tu día con Cocteles AMD: los mejores cocteles granizados de sabores únicos.">
+  <title>Cocteles AMD | Granizados con Sabor</title>
   <link rel="stylesheet" href="style.css">
+  <link rel="preload" href="logo.jpg" as="image">
 </head>
 <body>
   <header>
     <div class="logo">
-      <img src="logo.jpg" alt="Logo de Cocteles AMD">
+      <img src="logo.jpg" alt="Logo de Cocteles AMD" width="100" height="100">
     </div>
     <nav>
       <ul>
@@ -24,35 +25,35 @@
 
   <main>
     <section class="hero">
-      <h1>Bienvenido a Cocteles AMD</h1>
+      <h1>Bienvenido a <strong>Cocteles AMD</strong></h1>
       <p>¡La frescura que necesitas en cada sorbo!</p>
-      <a href="#" class="cta-button">Descubre nuestros cocteles</a>
+      <a href="#" class="cta-button" aria-label="Descubre nuestros cocteles granizados">Descubre nuestros cocteles</a>
     </section>
 
-    <section class="cocteles">
-      <h2>Cocteles Granizados</h2>
+    <section class="cocteles" aria-labelledby="cocteles-title">
+      <h2 id="cocteles-title">Cocteles Granizados</h2>
       <div class="cocteles-list">
-        <div class="coctel">
-          <img src="c1.jpg" alt="Coctel Granizado de Frutas">
+        <article class="coctel">
+          <img src="c1.jpg" alt="Coctel Granizado Tropical de frutas" loading="lazy">
           <h3>Granizado Tropical</h3>
           <p>Un mix de frutas frescas con un toque de menta.</p>
-        </div>
-        <div class="coctel">
-          <img src="c2.png" alt="Coctel Granizado de Limón">
+        </article>
+        <article class="coctel">
+          <img src="c2.png" alt="Coctel Granizado de limón y fresa" loading="lazy">
           <h3>Limón Refrescante</h3>
-          <p>El clásico sabor ácido y refrescante del limón, con un toque de fresa.</p>
-        </div>
-        <div class="coctel">
-          <img src="c3.jpg" alt="Coctel Granizado de Mango">
+          <p>El clásico sabor ácido del limón con un toque dulce de fresa.</p>
+        </article>
+        <article class="coctel">
+          <img src="c3.jpg" alt="Granizado de mango" loading="lazy">
           <h3>Mango Enfocado</h3>
-          <p>Un delicioso granizado de mango, perfecto para el calor.</p>
-        </div>
+          <p>Un delicioso granizado de mango, perfecto para los días calurosos.</p>
+        </article>
       </div>
     </section>
   </main>
 
   <footer>
-    <p>&copy; 2025 Cocteles AMD. Todos los derechos reservados.</p>
+    <p>&copy; 2025 <strong>Cocteles AMD</strong>. Todos los derechos reservados.</p>
   </footer>
 </body>
 </html>
